@@ -22,6 +22,12 @@
 
 header{
     background-color: #FFF8F3;
+    background-image: url(../hero-dev-portfolio-resources/images/developer.png), url(../hero-dev-portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 23px 38px, bottom right;
+    /* width: 100%;
+    max-width: 1600px;
+    height: 837px; */
 }
 
 header nav{
@@ -56,4 +62,57 @@ header nav ul li a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+}
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 47px;
+    margin-right: 38px;
+    margin-left: 230px
+}
+
+header div{
+    width: 100%;
+    max-width: 585px;
+    /* height: 356px; */ 
+    /* height dewa lagena.. se content unujai auto bose */
+}
+
+header section div h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+header section div h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+header section div p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+header section div .con{
+    padding: 18px 23px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    margin-left: 30px;
+}
+
+header section img{
+    width: 584px;
+    height: 674px;
 }
