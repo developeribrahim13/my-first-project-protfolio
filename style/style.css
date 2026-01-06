@@ -172,3 +172,64 @@ main #about-section .upper-div .about-card div h4{
     font-weight: bold;
     color:#474747;
 }
+
+#what-i-do{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 230px 0px;
+}
+
+#what-i-do #skills{
+    width: 100%;
+    max-width: 909px;
+    margin: 0 auto;
+}
+
+#what-i-do #skills .w-h{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#what-i-do #skills .skill-p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 50px;   
+    text-align: center;
+}
+
+#what-i-do #crd-sec{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:24px;
+}
+
+#what-i-do #crd-sec .crddsgn{
+    /* border: #FD6E0A 1px solid; */
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px #d3d2d2;
+}
+
+#what-i-do #crd-sec .crddsgn img{
+    width: 44px;
+    /* margin:30px 193px 30px 30px; */
+    margin-bottom: 30px;
+}
+
+#what-i-do #crd-sec h3{
+    font-size: 20px;
+    font-weight: bold;
+    color:#181818;
+    margin-bottom: 20px;
+}
+
+#what-i-do #crd-sec p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
