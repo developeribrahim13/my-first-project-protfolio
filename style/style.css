@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-.open-sans-font{
-  font-family: "Open Sans", sans-serif;
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.btn{
-    font-size:20px;
+.btn {
+    font-size: 20px;
     font-weight: bold;
     background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
-    padding:18px 35px;
+    padding: 18px 35px;
     border-style: none;
+    cursor: pointer;
 }
+
 /* uporer gulo shearaing tag */
 
-header{
+header {
     background-color: #FFF8F3;
     background-image: url(../hero-dev-portfolio-resources/images/developer.png), url(../hero-dev-portfolio-resources/images/header_bg.png);
     background-repeat: no-repeat;
@@ -30,7 +32,7 @@ header{
     height: 837px; */
 }
 
-header nav{
+header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,32 +41,32 @@ header nav{
     padding-left: 226px;
 }
 
-header nav h2{
-font-size: 45px;
-font-weight: 800;
+header nav h2 {
+    font-size: 45px;
+    font-weight: 800;
 }
 
-header nav h2 span{
+header nav h2 span {
     color: #FD6E0A;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     align-items: center;
     gap: 51px;
 }
 
-header nav ul li{
+header nav ul li {
     list-style: none;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: #474747;
 }
 
-header section{
+header section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,35 +75,35 @@ header section{
     margin-left: 230px
 }
 
-header div{
+header div {
     width: 100%;
     max-width: 585px;
-    /* height: 356px; */ 
+    /* height: 356px; */
     /* height dewa lagena.. se content unujai auto bose */
 }
 
-header section div h4{
+header section div h4 {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
 }
 
-header section div h1{
+header section div h1 {
     font-size: 85px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
 }
 
-header section div p{
+header section div p {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
 }
 
-header section div .con{
+header section div .con {
     padding: 18px 23px;
     border: 1px solid #FD6E0A;
     border-radius: 5px;
@@ -110,28 +112,29 @@ header section div .con{
     font-size: 20px;
     color: #FD6E0A;
     margin-left: 30px;
+    cursor: pointer;
 }
 
-header section img{
+header section img {
     width: 584px;
     height: 674px;
 }
 
-main #about-section{
+main #about-section {
     margin: 130px 230px 0px;
     padding: 131px 157px;
     background-color: #FFF8F3;
     /* border: solid 1px red;    */
 }
 
-main #about-section .upper-div{
+main #about-section .upper-div {
     margin: 0 auto;
     width: 887px;
     background-color: white;
     border: 1px solid black;
 }
 
-main #about-section .upper-div h2{ 
+main #about-section .upper-div h2 {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
@@ -139,55 +142,55 @@ main #about-section .upper-div h2{
 }
 
 main #about-section .upper-div h2,
-main #about-section .upper-div .pera{ 
+main #about-section .upper-div .pera {
     text-align: center;
-    
+
 }
 
-main #about-section .upper-div .pera{ 
+main #about-section .upper-div .pera {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
     margin-bottom: 30px;
 }
 
-main #about-section .upper-div .about-card{
+main #about-section .upper-div .about-card {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-main #about-section .upper-div .about-card div{
+main #about-section .upper-div .about-card div {
     text-align: center;
 }
 
-main #about-section .upper-div .about-card div p{ 
-    font-size:20px;
-    line-height:30px;
-    color:#757575;
+main #about-section .upper-div .about-card div p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
 }
 
-main #about-section .upper-div .about-card div h4{  
-    font-size:20px;
-    line-height:30px;
+main #about-section .upper-div .about-card div h4 {
+    font-size: 20px;
+    line-height: 30px;
     font-weight: bold;
-    color:#474747;
+    color: #474747;
 }
 
-#what-i-do{
+#what-i-do {
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
     padding: 130px 230px 0px;
 }
 
-#what-i-do #skills{
+#what-i-do #skills {
     width: 100%;
     max-width: 909px;
     margin: 0 auto;
 }
 
-#what-i-do #skills .w-h{
+#what-i-do #skills .w-h {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
@@ -195,54 +198,54 @@ main #about-section .upper-div .about-card div h4{
     text-align: center;
 }
 
-#what-i-do #skills .skill-p{
+#what-i-do #skills .skill-p {
     font-size: 18px;
     line-height: 30px;
     color: #757575;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
     text-align: center;
 }
 
-#what-i-do #crd-sec{
+#what-i-do #crd-sec {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-    gap:24px;
+    gap: 24px;
 }
 
-#what-i-do #crd-sec .crddsgn{
+#what-i-do #crd-sec .crddsgn {
     /* border: #FD6E0A 1px solid; */
     padding: 30px;
     box-shadow: 0px 6px 50px 0px #d3d2d2;
     border-radius: 5px;
 }
 
-#what-i-do #crd-sec .crddsgn img{
+#what-i-do #crd-sec .crddsgn img {
     width: 44px;
     /* margin:30px 193px 30px 30px; */
     margin-bottom: 30px;
 }
 
-#what-i-do #crd-sec h3{
+#what-i-do #crd-sec h3 {
     font-size: 20px;
     font-weight: bold;
-    color:#181818;
+    color: #181818;
     margin-bottom: 20px;
 }
 
-#what-i-do #crd-sec p{
+#what-i-do #crd-sec p {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
 }
 
-#summary{
+#summary {
     width: 100%;
     max-width: 1140px;
     margin: 130px auto 0;
 }
 
-#summary h2{
+#summary h2 {
     text-align: center;
     margin-bottom: 113px;
     font-size: 35px;
@@ -250,13 +253,13 @@ main #about-section .upper-div .about-card div h4{
     color: #181818;
 }
 
-#summary .summary-content{
+#summary .summary-content {
     display: flex;
     gap: 24px;
 }
 
 #summary .summary-content .education h3,
-#summary .summary-content .experience h3{
+#summary .summary-content .experience h3 {
     font-size: 30px;
     font-weight: bold;
     color: #474747;
@@ -264,7 +267,7 @@ main #about-section .upper-div .about-card div h4{
 }
 
 #summary .summary-content .education div h4,
-#summary .summary-content .experience div h4{
+#summary .summary-content .experience div h4 {
     font-size: 25px;
     font-weight: bold;
     color: #474747;
@@ -272,7 +275,7 @@ main #about-section .upper-div .about-card div h4{
 }
 
 #summary .summary-content .education div h6,
-#summary .summary-content .experience div h6{
+#summary .summary-content .experience div h6 {
     font-size: 20px;
     color: #757575;
     font-weight: 600;
@@ -280,19 +283,99 @@ main #about-section .upper-div .about-card div h4{
 }
 
 #summary .summary-content .education div p,
-#summary .summary-content .experience div p{
+#summary .summary-content .experience div p {
     font-size: 16px;
     color: #757575;
     line-height: 28px;
 }
 
 #summary .summary-content .education hr,
-#summary .summary-content .experience hr{
-  margin: 30px 0;  
+#summary .summary-content .experience hr {
+    margin: 30px 0;
 }
 
-#summary button{
+#summary button {
     margin: 50px auto 0px;
     display: block;
 }
 
+footer {
+    background-color: #FFF8F3;
+    margin-top: 113px;
+}
+
+#footer-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-div .div-1 {
+    /* width: 100%;
+    max-width: 562px; */
+    margin: 130px 117px 472px 230px;
+}
+
+#footer-div .f-h {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+}
+
+#footer-div .f-p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+    width: 562px;
+}
+
+#footer-div .logo-icon {
+    width: 120px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-div form {
+    margin: 130px 230px 130px 0;
+}
+
+#footer-div form input[type="text"],input[type="email"]{
+    /* width: 100%; */
+    width: 461px;
+    height: 64px;
+    /* padding: 18px 300px 18px 30px; */
+    padding-left:30px;
+    background-color: white;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    font-weight: normal;
+    margin-bottom: 24px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#footer-div form h2{
+    width: 305px;
+}
+
+#footer-div form textarea{
+    width: 461px;
+    height: 180px;
+    padding-left: 30px;
+    padding-top: 18px;
+    margin-bottom: 25px;
+     border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* #footer-div form .f-p2 {
+    width: 461px;
+    height: 64px;
+    padding: 18px 30px;
+} */
